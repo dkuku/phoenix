@@ -443,7 +443,7 @@ def index(conn, _params) do
   conn
   |> put_status(:not_found)
   |> render("index.html")
-end
+endim
 ```
 
 The correct way to render the 404 page from `HelloWeb.PageController` is:
